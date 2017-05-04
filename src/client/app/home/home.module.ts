@@ -10,7 +10,7 @@ import { InputTextModule, ButtonModule, DataGridModule, DialogModule, PanelModul
 
 
 @NgModule({
-  imports: [HomeRoutingModule, SharedModule, FormsModule, InputTextModule, ButtonModule, InputTextModule, ButtonModule, DataGridModule, DialogModule, PanelModule, BrowserAnimationsModule ],
+  imports: [HomeRoutingModule, SharedModule, FormsModule, InputTextModule, ButtonModule, ButtonModule, DataGridModule, DialogModule, PanelModule, BrowserAnimationsModule ],
   declarations: [HomeComponent],
   exports: [HomeComponent],
   providers: [InterfaceListService]
